@@ -204,10 +204,10 @@ zendesk-support = { module = "com.zendesk:support", version.ref = "zendesk-suppo
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-kotlin-android-extensions = { id = "org.jetbrains.kotlin.android.extensions", version.ref = "kotlin" }
 kotlin-detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
 automattic-configure = { id = "com.automattic.android.configure", version.ref = "automattic-configure" }
 automattic-fetchstyle = { id = "com.automattic.android.fetchstyle", version.ref = "automattic-fetchstyle" }
 automattic-publishToS3 = { id = "com.automattic.android.publish-to-s3", version.ref = "automattic-publishToS3" }
