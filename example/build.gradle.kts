@@ -7,10 +7,10 @@ plugins {
     alias(libs.plugins.automattic.fetchstyle).apply(false)
     alias(libs.plugins.automattic.publishToS3).apply(false)
     alias(libs.plugins.kotlin.android).apply(false)
-    alias(libs.plugins.kotlin.android.extensions).apply(false)
     alias(libs.plugins.kotlin.detekt).apply(false)
     alias(libs.plugins.kotlin.jvm).apply(false)
     alias(libs.plugins.kotlin.kapt).apply(false)
+    alias(libs.plugins.kotlin.parcelize).apply(false)
     alias(libs.plugins.dependency.analysis).apply(false)
 }
 
