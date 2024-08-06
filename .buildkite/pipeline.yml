@@ -16,6 +16,11 @@ steps:
   # Wait for Gradle Wrapper to be validated before running any other jobs
   - wait
 
+  - label: "Verify"
+    plugins: *common_plugins
+    command: |
+      ./gradlew example:assembleDebug
+
   - label: "Publish catalog"
     key: "publish"
     plugins: *common_plugins
