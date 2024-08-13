@@ -27,6 +27,7 @@ androidx-recyclerview = "1.2.1"
 androidx-recyclerview-selection = "1.1.0"
 androidx-room = "2.6.1"
 androidx-security-crypto = "1.0.0"
+androidx-swiperefreshlayout = "1.1.0"
 androidx-test-core = "1.4.0"
 androidx-test-espresso = "3.4.0"
 androidx-test-ext-junit = "1.1.3"
@@ -45,7 +46,7 @@ automattic-tracks = "5.1.2"
 chrisbanes-photoview = "2.3.0"
 commons-io = "2.11.0"
 dagger = "2.51.1"
-dependency-analysis = "1.28.0"
+dependency-analysis = "1.33.0"
 detekt = "1.23.6"
 eventbus = "3.3.1"
 facebook-flipper = "0.138.0"
@@ -127,6 +128,7 @@ androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "androidx
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "androidx-room" }
 androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "androidx-room" }
 androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "androidx-security-crypto" }
+androidx-swiperefreshlayout = {group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "androidx-swiperefreshlayout" }
 androidx-test-core = { module = "androidx.test:core", version.ref = "androidx-test-core" }
 androidx-test-espresso-contrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "androidx-test-espresso" }
 androidx-test-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-test-espresso" }
@@ -145,6 +147,7 @@ chrisbanes-photoview = { module = "com.github.chrisbanes:PhotoView", version.ref
 commons-io = { module = "commons-io:commons-io", version.ref = "commons-io" }
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
 eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
+eventbus-java = {group = "org.greenrobot", name = "eventbus-java", version.ref = "eventbus" }
 facebook-flipper = { module = "com.facebook.flipper:flipper", version.ref = "facebook-flipper" }
 facebook-flipper-network-plugin = { module = "com.facebook.flipper:flipper-network-plugin", version.ref = "facebook-flipper" }
 facebook-shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "facebook-shimmer" }
