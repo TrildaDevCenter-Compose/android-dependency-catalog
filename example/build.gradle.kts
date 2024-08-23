@@ -29,7 +29,11 @@ android {
 dependencies {
     versionCatalog.getLibraryAliases().forEach { libraryAlias ->
         versionCatalog.findLibrary(libraryAlias).ifPresent {
-            implementation(it)
+            if (libraryAlias.contains("bom")) {
+                implementation(platform(it))
+            } else {
+                implementation(it)
+            }
         }
     }
 }
