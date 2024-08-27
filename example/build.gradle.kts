@@ -24,12 +24,23 @@ android {
     lint {
         lintConfig = file("config/lint.xml")
     }
+
+    buildFeatures {
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = libs.versions.androidx.compose.compiler.get()
+    }
 }
 
 dependencies {
     versionCatalog.getLibraryAliases().forEach { libraryAlias ->
         versionCatalog.findLibrary(libraryAlias).ifPresent {
-            implementation(it)
+            if (libraryAlias.contains("bom")) {
+                implementation(platform(it))
+            } else {
+                implementation(it)
+            }
         }
     }
 }
